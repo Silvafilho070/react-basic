@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #4a90e2;
+  --color-secondary: #50e3c2;
+  --color-tertiary: #9013fe;
+  --color-quaternary: #f5a623;
+}
+
+.texto {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+button {
+  cursor: pointer;
+}
